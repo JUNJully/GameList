@@ -1,0 +1,91 @@
+
+.figure {
+    width: 100px;
+    height:100px;
+}
+.title {
+    max-width: 700px;
+    word-wrap: break-word;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    transition: .22s all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border:1px solid grey;
+    border-radius: 3px;
+    margin-left:5%;
+    margin-bottom:1%;
+    text-align: left;
+}
+.list {
+    margin-top:10%;
+    margin-left:30%;
+    padding: 0;
+    list-style: none;
+}
+
+.card {
+    position:fixed;
+    overflow: hidden;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgba(24, 53, 77, 0.2);
+    background: grey;
+    width:fit-content;
+    margin-left:60%;
+    margin-top: 3%;
+}
+input {
+    width: 300px;
+	font-size: 20px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #fff;
+	border-radius: 8px;
+}
+.btn {
+    padding-top: 1rem;
+    color:black;
+    position: relative;
+    place-content: center;
+    place-items: center;
+    width: fit-content;
+    border-radius: 8px;
+    letter-spacing: 0.05em;
+    border: 1px solid grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding: 0.5rem 1.5rem;
+    white-space: nowrap;
+    font-weight: 700;
+    outline: none;
+    background: #fff;
+    transition: all 0.22s;
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+form div{
+    clear:both;
+    text-align: right;
+    padding-top: 10px;
+  }
+  label {
+    padding-right:10px;
+    padding-top: 0.9rem;
+    float:left;
+    font-size: 1.2rem;
+    color:#fff;
+}
+
+span {
+    float: right;
+}
+h1 {
+margin-left: 10%;
+}
+
+	
